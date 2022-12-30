@@ -2,15 +2,15 @@
 
 #include <stdio.h>
 
-int func(int a, int b) // Function Prototype
+int display(); // Function Prototype.
 
-int main(){
+int main()
+{
 
-func(5, 6); // Function Calling.
+    display(); // Function Calling.
+}
 
-} 
-
-int func(int a, int b){ 
-    printf("%d %d", a, b); // Function Declaration
-    
+int display()
+{
+    printf("Hello World!\n"); // Function Declaration.
 }
